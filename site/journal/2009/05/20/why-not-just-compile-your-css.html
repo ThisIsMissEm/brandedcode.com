@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Branded Code: Why Not Just Compile Your CSS?</title>
+
+	<link rel="stylesheet" href="/stylesheets/journal.css" type="text/css" media="screen" charset="utf-8" />
+	<link href="/journal/atom.xml" rel="alternate" title="Branded Code: Journal" type="application/atom+xml" />
+
+	<script type="text/javascript" src="http://use.typekit.com/afj3ypu.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+	<div id="container">
+		<h3 id="logo">
+			<a href="/" title="The frontpage, also known as this page">Branded Code</a>
+		</h3>
+				<div id="articles">
+			<div class="date"><span>20 May 2009</span></div>
+			<div class="article">
+				<h2><a href="/journal/journal/2009/05/20/why-not-just-compile-your-css.html">Why Not Just Compile Your CSS?</a></h2>
+				<div class="content">
+					<p>If you&#8217;ve been following topics on front-end web development or more specifically the advent of CSS3, you may have seen loads of talk about <a href="http://disruptive-innovations.com/zoo/cssvariables/">CSS variables</a>, why we need them and why <a href="http://http://meiert.com/en/blog/20090401/why-css-needs-no-variables/">we don&#8217;t</a>. The specification on CSS variables seems pretty dry, but from what I can gather, variables in CSS are just like variables in any other programming language, they allow you to define a value once, and then reuse it later.</p>
+
+<p>So, because we all know how quick browser manufactures are at making and implementing new features, some people have decided to implement this feature in various ways, including using php or your favourite server-side language to parse the file. Others have just setup campaigns and <a href="http://twitter.com/stanton/status/1564023785">polls</a> as to whether we should have them, while the majority of people have just continued rolling by.</p>
+
+<p>An example of css variables could be as follows:</p>
+
+<pre><code>    @variables { elementcolor: black; }
+    #selector1 { color: var(elementcolor); }
+    #selector2 { background: var(elementcolor); }
+</code></pre>
+
+<p>Versus:</p>
+
+<pre><code>    #selector1 { color: black; }
+    #selector2 { background: black; }
+</code></pre>
+
+<p>Why not just compile your CSS while you&#8217;re at it? This method could have numerous advantages over having variables on the client. It could, if we wanted do many more things then just add variables, like adding compression amongst other things.</p>
+
+<p>I&#8217;ve already used a form of a CSS Compiler when working over at NapalmRiot.com, although the user would probably never see it, it was a simple php script to find all @imports in a css file, call in the files, and remove the import rules, hence having slightly improved loading performance.</p>
+
+<p>This had a downfall though, whenever I made a single change, I had to recompile my css. Now instead of compiling @imports, now compile variables, what advantage do you get?</p>
+
+<p>The arguments:</p>
+
+<ul>
+<li>“<em>How Quick is it to do a find and replace in your text-editor of choice to replace a colour?</em>”</li>
+<li>“<em>How often do you change all the colours in your css file, or something of the similar nature?</em>”</li>
+<li>“<em>Is it just a matter of not remembering Hex Codes?</em>”</li>
+</ul>
+
+
+<p>Really, I think instead of debating whether the developer needs CSS Variables, we should be asking: “<em>Does the <strong>user</strong> need css variables?</em>”. It&#8217;s not about what makes the developers life easier, it&#8217;s about what makes the <em>users</em> life easier.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-10785031-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</body>
+</html>

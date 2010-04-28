@@ -1,0 +1,34 @@
+---
+layout: default
+title: Journal
+---
+
+<ol id="articles">
+	{% for post in site.posts %}
+	<li class="article-item">
+		<div class="date"><span>{{ post.date | date_to_string }}</span></div>
+		<div class="article">
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<div class="content">
+				{{ post.content }}
+			</div>
+		</div>
+	</li>
+  {% endfor %}
+</ol>
+
+{% if paginator.total_posts > 5 %}
+<div id="paginator">
+	{% if paginator.next_page %}
+  	<a href="/journal/page{{ paginator.next_page }}/">&larr; Older</a>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a href="/journal
+        {% if paginator.previous_page == 1 %}
+          /
+        {% else %}
+          /page{{ paginator.previous_page }}
+        {% endif %}">Newer &rarr;</a>
+  {% endif %}
+</div>
+{% endif %}

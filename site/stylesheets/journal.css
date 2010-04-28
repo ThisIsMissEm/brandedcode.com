@@ -1,0 +1,341 @@
+body {
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  line-height: 1.3em;
+  color: #676161;
+  cursor: default;
+  vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, #section-links a {
+  font-family: "museo-slab-1", "museo-slab-2", serif;
+  display: block;
+  position: relative;
+  color: #363333;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  text-align: left;
+}
+
+h1, h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  word-spacing: 0.2em;
+  line-height: 1.32em;
+  margin: 0.250em 0 0.68em;
+  color: #e8402c;
+  text-shadow: 0.0225em 0.0225em 0px #a82e20;
+}
+h1 a, h2 a {
+  font-style: normal;
+}
+h1 a:visited, h1 a:active, h2 a:visited, h2 a:active {
+  color: #707072;
+  font-style: normal;
+  text-shadow: 0.0225em 0.0225em 0px #191919;
+}
+h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus {
+  color: #565657;
+  font-style: normal;
+  text-shadow: 0.0225em 0.0225em 0px #191919;
+}
+
+h3 {
+  font-size: 1.75em;
+  margin: 0 0 0.85em;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin: 0.8em 0 0.6em;
+}
+
+h5 {
+  font-size: 1.35em;
+}
+
+h6 {
+  font-size: 1.15em;
+}
+
+p {
+  font-size: 1em;
+  margin: 0 0 1.4em 0;
+  line-height: 1.4em;
+  clear: both;
+  vertical-align: baseline;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+blockquote {
+  margin: 1.8em auto 2.15em;
+  vertical-align: baseline;
+  border-top: 1px solid #d9d8d5;
+  border-bottom: 1px solid #fff;
+  width: 88%;
+  text-align: center;
+}
+blockquote p {
+  text-align: center;
+  font-size: 1.45em;
+  color: #707072;
+  padding: 0.3em 0.5em;
+  margin: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #d9d8d5;
+}
+
+img {
+  border: 1px solid #ADAAA5;
+  display: block;
+  background: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul, ol, dl {
+  line-height: 1.4em;
+  margin-top: -1em;
+  margin-bottom: 1.4em;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  border: medium none;
+  position: relative;
+  clear: both;
+  margin: 1.5em 0;
+}
+
+form input, form textarea {
+  font-family: georgia;
+  font-size: 1em;
+}
+form input[type="text"] {
+  border: 1px dashed #777;
+  border-width: 0 0 1px 0;
+  font-style: italic;
+  color: #ff0060;
+}
+form textarea {
+  border: 1px solid #999;
+  display: block;
+  width: 98.8%;
+  height: 12em;
+  padding: 0.2em;
+}
+
+a {
+  text-decoration: none;
+  color: #e8402c;
+  padding: 0.1em;
+  font-style: oblique;
+}
+a:active, a:visited {
+  color: #404042;
+  font-style: oblique;
+}
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+div {
+  display: block;
+  position: relative;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #f7f7f6 url("/stylesheets/images/background.png") 0 0 repeat;
+  line-height: 1.3em;
+  overflow-y: scroll;
+}
+
+.accessibility {
+  display: none;
+  visibility: visible;
+}
+
+/* ----------------------------------------------- */
+#logo {
+  font-size: 1em;
+}
+#logo a {
+  display: block;
+  position: relative;
+  left: 60%;
+  top: 0px;
+  width: 8.1em;
+  padding: 1.3em 0 1em;
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  font-size: 2.75em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background: #dc3d2a;
+  border: 1px solid #a82e20;
+  border-top: 3px solid #a82e20;
+  border-left: 1px solid #ff4530;
+  text-shadow: 2px 2px 2px #a82e20;
+}
+#logo a:visited, #logo a:active {
+  color: #fff;
+  background: #dc3d2a;
+  border-color: #a82e20;
+  border-left-color: #ff4530;
+  text-shadow: 2px 2px 2px #a82e20;
+}
+#logo a:hover, #logo a:focus {
+  color: #eee;
+  border-color: #191919;
+  background: #474746;
+  text-shadow: 2px 2px 2px #191919;
+}
+
+#container {
+  zoom: 1;
+}
+#container:after {
+  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  visibility: hidden;
+  clear: both;
+  height: 0!important;
+  display: block;
+  line-height: 0;
+  font-size: xx-large;
+  overflow: hidden;
+}
+#container hr#end {
+  background: transparent url("/stylesheets/images/block_border.png") 0 0 repeat-x;
+  border: medium none;
+  height: 5px;
+  margin: 0 0 50px 0;
+}
+
+#articles {
+  list-style: none;
+  margin: 5.8em 0 0;
+  padding: 0;
+  width: 60em;
+}
+#articles .article-item {
+  zoom: 1;
+  padding: 0 0 1.6em 0;
+  margin: 4.1em 0 0 0;
+}
+#articles .article-item:after {
+  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  visibility: hidden;
+  clear: both;
+  height: 0!important;
+  display: block;
+  line-height: 0;
+  font-size: xx-large;
+  overflow: hidden;
+}
+#articles .date {
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0;
+  margin: 1.35em 20px 0 0;
+  font-size: 1.2em;
+  border-left: 35px solid #ADAAA5;
+  background: #d9d8d5 url("/stylesheets/images/date-arrow.png") 100% 50% no-repeat;
+}
+#articles .date span {
+  display: block;
+  background: #d9d8d5;
+  border-bottom: 1px solid #cecdcb;
+  border-top: 1px solid #cecdcb;
+  padding: 6px 0 6px 18px;
+  margin: 0 18px 0 0;
+  height: 1em;
+  width: 120px;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+}
+#articles .article {
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0;
+  width: 38em;
+}
+#articles .article .content {
+  margin: 0 0 0 7px;
+  text-align: justify;
+  border-bottom: 1px dashed #cecdcb;
+}
+
+#comments {
+  clear: both;
+  zoom: 1;
+  width: 38em;
+  margin: 0 0 0 220px;
+  padding: 1.8em 0 2em 0;
+  border-bottom: 1px dashed #cecdcb;
+}
+#comments:after {
+  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  visibility: hidden;
+  clear: both;
+  height: 0!important;
+  display: block;
+  line-height: 0;
+  font-size: xx-large;
+  overflow: hidden;
+}
+
+#paginator {
+  clear: both;
+  zoom: 1;
+  width: 38em;
+  margin: 0 0 0 220px;
+  padding: 1.8em 0 2em 0;
+  border-bottom: 1px dashed #cecdcb;
+}
+#paginator:after {
+  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  visibility: hidden;
+  clear: both;
+  height: 0!important;
+  display: block;
+  line-height: 0;
+  font-size: xx-large;
+  overflow: hidden;
+}
+
+#footer {
+  width: 38em;
+  padding: 1em 0 0;
+  margin: 0 0 0 220px;
+}
+#footer p {
+  opacity: 0.5;
+}
+#footer a {
+  color: #000;
+}
+
+hr#end {
+  background: transparent url("/stylesheets/images/block_border.png") 0 0 repeat-x;
+  border: medium none;
+  height: 5px;
+  margin: 0 0 50px 0;
+}

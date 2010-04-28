@@ -1,0 +1,92 @@
+@import core
+  
+=block
+  +clearfix
+  background: url("images/block_border.png") 0 0 repeat-x
+  margin-top: 0.5em
+  padding: 2em
+
+/*-----------------------------------------------
+//  Specifics
+// -----------------------------------------------*/
+#container
+  margin: 0 auto
+  width: 62.45em
+
+  #infographic
+    height: 35.1em
+    margin: 0
+    padding: 6em 0 0 2em
+    
+    img
+      background: none
+      border: medium none
+    
+  #content
+    +clearfix
+    background: url("images/column_border.png") 40em 0 repeat-y
+    padding: 0 0 0
+    
+    #page
+      +column
+      margin: 0 0.2em 0 0
+      padding: 5.3em 0 0
+      width: 40em
+      
+      #section-portfolio
+        +block
+      
+      .thumbs
+        +clearfix
+        
+        a
+          +column
+          margin: 0 1.5em 1.5em 0
+          text-align: center
+          background: none
+          border: medium none
+            
+          img
+            border: 1px solid #ADAAA5
+            display: block
+            width: 260px
+            height: 160px
+            background: #fff
+            text-align: center
+            vertical-align: middle
+            
+          &:hover, &:focus
+            background: none
+            border: medium none
+
+            img
+              border: 1px solid #82807D
+    
+    #asides
+      +column
+      width: 20em
+  
+      #section-ethos
+        +block
+        background: none
+        padding: 2em 0 0 2em
+        margin-top: -9.9em
+      
+      #section-links
+        +block
+        padding: 2em 2em 1.3em 1.3em
+          
+        a
+          color: #dc3d2a
+          padding: 0 0.2em
+          font-size: 3.5em
+          font-weight: 700
+          letter-spacing: -0.02em
+          word-spacing: 0.2em
+          line-height: 1.24em
+          display: block
+          display: inline-block!important
+          
+          &:hover, &:focus
+            background: #dc3d2a
+            color: #fff
