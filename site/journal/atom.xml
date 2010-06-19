@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Branded Code: Journal</title>
+  <link href="http://brandedcode.com/journal/atom.xml" rel="self"/>
+  <link href="http://brandedcode.com/journal/"/>
+  <updated>2010-06-12T00:35:40+10:00</updated>
+  <id>http://brandedcode.com/journal/</id>
+  <author>
+    <name>Micheil Smith</name>
+    <email>micheil@brandedcode.com</email>
+  </author>
+
+  <entry>
+    <title>Just Say Thanks.</title>
+    <link href="http://brandedcode.com/journal/journal/2010/04/06/just-say-thanks.html"/>
+    <updated>2010-04-06T00:00:00+10:00</updated>
+    <id>http://brandedcode.com/journal/journal/2010/04/06/just-say-thanks</id>
+    <content type="html">
+      &lt;p&gt;It&amp;apos;s something I&amp;apos;ve been thinking about for a while, but isn&amp;apos;t it rather sad that rarely today do we see people just saying a simple &lt;em&gt;thanks&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Say thanks to those who make a product or service that you use, say thanks for that link that someone shared with you, or that grand piece of work and possible inspiration that you saw on &lt;em&gt;&lt;a href=&quot;http://dribbble.com&quot;&gt;dribbble&lt;/a&gt;&lt;/em&gt;. You could also say thanks to the producers of that &lt;a href=&quot;http://thechangelog.com&quot;&gt;awesome&lt;/a&gt; &lt;a href=&quot;http://carsonified.com/blog/category/tvr/&quot;&gt;podcast&lt;/a&gt; you listen to.&lt;/p&gt;
+
+&lt;p&gt;So if you&amp;apos;ve said &lt;em&gt;thanks&lt;/em&gt; to somebody today, give yourself a pat on the back.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Gedanken-Experimente</title>
+    <link href="http://brandedcode.com/journal/journal/2010/02/17/am-gedankenexperimente.html"/>
+    <updated>2010-02-17T00:00:00+11:00</updated>
+    <id>http://brandedcode.com/journal/journal/2010/02/17/am-gedankenexperimente</id>
+    <content type="html">
+      &lt;p&gt;It was a summers day, the wind blowing a light breeze outside to cool the air, leaves moving slightly on their branches. Inside, it was a physics classroom. The teacher, talking of Einstein, his thought experiments, and how he came to discover his theory of relativity. Me, I had my sketchbook out, the brain ticking away over ideas, and then a thought that's never occurred to me before appear, and that thought was:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Design is very similar to a thought experiment.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;So, what is a &lt;em&gt;gedankenexperimente&lt;/em&gt;, it&amp;apos;s a way of thinking about a problem. Often, you adjust your focus and perspective on the issue until you have a very clear idea &amp;mdash; one with a single purpose.&lt;/p&gt;
+
+&lt;p&gt;Over the next few weeks, I pondered over the idea of a thought experiment being used to design or develop something. I tried it out a a fair few times, and each time, the ideas began to grow and evolve in to something strong and pure. It all starts with a seed, an idea, nothing super significant, just an idea. That seed then sits in the depths of your mind, waiting for it's moment to sprout, as if in hibernation.&lt;/p&gt;
+
+&lt;p&gt;Once the seed has grown, you try to quickly get all of the idea out of your head and down somewhere more permanent, possibly much like what Einstein would have done after his own &lt;em&gt;gedankenexperimente eureka!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Slowly, I became conscious of how a thought experiment works and evolves. Now that I understand how they work, I can share with out how a thought experiment works, and the process I use:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Take an idea.&lt;/li&gt;
+&lt;li&gt;Think about it a little, but don't focus too hard on it.&lt;/li&gt;
+&lt;li&gt;Go and do some other things for a while.&lt;/li&gt;
+&lt;li&gt;Slowly craft a clearer picture of the original idea.&lt;/li&gt;
+&lt;li&gt;With your ideas, apply all the variables, play with the available perspectives, shift your focus between the individual elements of your problem.&lt;/li&gt;
+&lt;li&gt;Begin to take your ideas and construct something out of them.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;There you have it, the very small and simple steps of a thought experiment. Most creatives will have many of these over a day, a week, or several week period, generally without even noticing it. It's a natural process, it's something that we do without our invention. However, with a little intervention, you can refine and shape how you perform a &lt;em&gt;thought experiment
+&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;What do you think of thought experiments, would you use them?&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Why Not Just Compile Your CSS?</title>
+    <link href="http://brandedcode.com/journal/journal/2009/05/20/why-not-just-compile-your-css.html"/>
+    <updated>2009-05-20T00:00:00+10:00</updated>
+    <id>http://brandedcode.com/journal/journal/2009/05/20/why-not-just-compile-your-css</id>
+    <content type="html">
+      &lt;p&gt;If you&amp;#8217;ve been following topics on front-end web development or more specifically the advent of CSS3, you may have seen loads of talk about &lt;a href=&quot;http://disruptive-innovations.com/zoo/cssvariables/&quot;&gt;CSS variables&lt;/a&gt;, why we need them and why &lt;a href=&quot;http://http://meiert.com/en/blog/20090401/why-css-needs-no-variables/&quot;&gt;we don&amp;#8217;t&lt;/a&gt;. The specification on CSS variables seems pretty dry, but from what I can gather, variables in CSS are just like variables in any other programming language, they allow you to define a value once, and then reuse it later.&lt;/p&gt;
+
+&lt;p&gt;So, because we all know how quick browser manufactures are at making and implementing new features, some people have decided to implement this feature in various ways, including using php or your favourite server-side language to parse the file. Others have just setup campaigns and &lt;a href=&quot;http://twitter.com/stanton/status/1564023785&quot;&gt;polls&lt;/a&gt; as to whether we should have them, while the majority of people have just continued rolling by.&lt;/p&gt;
+
+&lt;p&gt;An example of css variables could be as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    @variables { elementcolor: black; }
+    #selector1 { color: var(elementcolor); }
+    #selector2 { background: var(elementcolor); }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Versus:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    #selector1 { color: black; }
+    #selector2 { background: black; }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Why not just compile your CSS while you&amp;#8217;re at it? This method could have numerous advantages over having variables on the client. It could, if we wanted do many more things then just add variables, like adding compression amongst other things.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve already used a form of a CSS Compiler when working over at NapalmRiot.com, although the user would probably never see it, it was a simple php script to find all @imports in a css file, call in the files, and remove the import rules, hence having slightly improved loading performance.&lt;/p&gt;
+
+&lt;p&gt;This had a downfall though, whenever I made a single change, I had to recompile my css. Now instead of compiling @imports, now compile variables, what advantage do you get?&lt;/p&gt;
+
+&lt;p&gt;The arguments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“&lt;em&gt;How Quick is it to do a find and replace in your text-editor of choice to replace a colour?&lt;/em&gt;”&lt;/li&gt;
+&lt;li&gt;“&lt;em&gt;How often do you change all the colours in your css file, or something of the similar nature?&lt;/em&gt;”&lt;/li&gt;
+&lt;li&gt;“&lt;em&gt;Is it just a matter of not remembering Hex Codes?&lt;/em&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Really, I think instead of debating whether the developer needs CSS Variables, we should be asking: “&lt;em&gt;Does the &lt;strong&gt;user&lt;/strong&gt; need css variables?&lt;/em&gt;”. It&amp;#8217;s not about what makes the developers life easier, it&amp;#8217;s about what makes the &lt;em&gt;users&lt;/em&gt; life easier.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>CSS Frameworks, &amp; Why I use them</title>
+    <link href="http://brandedcode.com/journal/journal/2008/10/19/css-frameworks-and-why-i-use-them.html"/>
+    <updated>2008-10-19T00:00:00+11:00</updated>
+    <id>http://brandedcode.com/journal/journal/2008/10/19/css-frameworks-and-why-i-use-them</id>
+    <content type="html">
+      &lt;p&gt;I&amp;#8217;m sure anyone, who has ever down any hardcore web development or developed a web application will know that after you reach a certain size, your CSS files start to get unwieldy — That is, they become hard to edit, cumbersome to make bug fixes to, and sometimes start taking a month of Fridays to load.&lt;/p&gt;
+
+&lt;p&gt;A Common solution to this is to use CSS Indexing, where you set up a system of comments to be able to quickly find your way around your files. While this method of having Comment Headings for each section works, it still leaves you with a massive file size.&lt;/p&gt;
+
+&lt;p&gt;Another solution is to go the way of a Framework, where by you break each part in your css down to it&amp;#8217;s core components. A list of the core components may look quite similar to the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;reset.css &amp;mdash; Yes, I use a reset stylesheet, simple because it makes it easier to develop styles consistently across browsers.&lt;/li&gt;
+&lt;li&gt;typography.css &amp;mdash; This includes everything to do with type. From the Baseline and Line-height settings, right through to font-sizes and image alignment.&lt;/li&gt;
+&lt;li&gt;grid.css &amp;mdash; A standard style grid systems. Typically including CSS for doing column layouts and table grids.&lt;/li&gt;
+&lt;li&gt;importer.css &amp;mdash; One file to @import in all your CSS files, alternatively you can just link in each of your stylesheets using the &amp;lt;link&amp;gt; tag in HTML.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;From that basic layout of files, I then use a I trick call &amp;#8220;Body Identification&amp;#8221;, this is simply the method of applying a unique ID to each type of page in your site. e.g. If your &amp;#8216;about us&amp;#8217; page needs a red background, then I&amp;#8217;d use this selector to apply the CSS rule.&lt;/p&gt;
+
+&lt;p&gt;With using a unique page ID, it&amp;#8217;s probably a good practice to put all the CSS files named by their unique ID&amp;#8217;s in a folder called &amp;#8216;pages&amp;#8217; or &amp;#8216;layouts&amp;#8217;. You&amp;#8217;re file structure is now looking much more like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+|-- grid.css
+|-- reset.css
+|-- typography.css
+|-- layouts
+|   |-- aboutus.css
+|   |-- frontpage.css
+|   `-- blog.css
+`-- importer.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So there you have it, a simple way to manage your css, with the benefits of being in small chunked files, having an abstracted framework to work around — a Scaffold, if you will — and, you also have highly specific stylesheets targeting individual pages of your application.&lt;/p&gt;
+
+&lt;p&gt;You can Learn more about CSS Frameworks at:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alistapart: Issue #239: &lt;a href=&quot;http://www.alistapart.com/articles/frameworksfordesigners&quot;&gt;Framework For Designers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Monday By Noon: &lt;a href=&quot;http://mondaybynoon.com/2007/08/27/please-do-not-use-css-frameworks/&quot;&gt;Please Do Not Use CSS Frameworks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Smashing Magazine: &lt;a href=&quot;http://www.smashingmagazine.com/2007/09/21/css-frameworks-css-reset-design-from-scratch/&quot;&gt;CSS Frameworks + CSS Reset: Design From Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wikipedia: &lt;a href=&quot;http://en.wikipedia.org/wiki/CSS_framework&quot;&gt;CSS Frameworks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;What&amp;#8217;s your own take on the Use of CSS Framworks and They&amp;#8217;re Applications?&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>My Development Process</title>
+    <link href="http://brandedcode.com/journal/journal/2008/06/08/my-development-process.html"/>
+    <updated>2008-06-08T00:00:00+10:00</updated>
+    <id>http://brandedcode.com/journal/journal/2008/06/08/my-development-process</id>
+    <content type="html">
+      &lt;p&gt;Recently there&amp;#8217;s been a load of discussion about the flow of development different companies use in order to make websites or applications. From the &lt;a href=&quot;http://www.37signals.com/svn/posts/1061-why-we-skip-photoshop&quot;&gt;37signals&lt;/a&gt; team, we had the process of:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Paper Sketches&lt;/li&gt;
+&lt;li&gt;&lt;abbr title=&quot;eXtensible HyperText Markup Language&quot;&gt;xHTML&lt;/abbr&gt; + &lt;abbr title=&quot;Cascading StyleSheets&quot;&gt;CSS&lt;/abbr&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;This is almost similar to the process I use, however I introduce another step; But before I get to that, I&amp;#8217;ll explain traditional, and possibly most well known method. It goes something like this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Brain Storming&lt;/li&gt;
+&lt;li&gt;Rough Paper Sketches&lt;/li&gt;
+&lt;li&gt;Refined Sketches&lt;/li&gt;
+&lt;li&gt;Photoshop mockup&lt;/li&gt;
+&lt;li&gt;Prototyping in &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt; + &lt;abbr title=&quot;Cascading StyleSheets&quot;&gt;CSS&lt;/abbr&gt;&lt;/li&gt;
+&lt;li&gt;Full production development&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;This process has worked for different people for a number of reasons, for one, it&amp;#8217;s well structured and gives plenty of time for thought. Two, It&amp;#8217;s a way to collect and streamline thoughts before actually starting anything in hard code or pen on paper.&lt;/p&gt;
+
+&lt;p&gt;I can&amp;#8217;t say i&amp;#8217;ve found this method to ever work very well for me; I&amp;#8217;ve tried to use it a few times, not because i suck at photoshop, but because i like to be too precise, there&amp;#8217;s too much detail i can put into a drawing. A sketch on the other hand, i can easily change, modify and rearrange. My Process goes something like this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Research and Inspire&lt;/li&gt;
+&lt;li&gt;Rough paper sketches&lt;/li&gt;
+&lt;li&gt;Dimension sizes of things on using tracing paper.&lt;/li&gt;
+&lt;li&gt;Work from paper straight into &lt;abbr title=&quot;eXtensible HyperText Markup Language&quot;&gt;xHTML&lt;/abbr&gt; + &lt;abbr title=&quot;Cascading StyleSheets&quot;&gt;CSS&lt;/abbr&gt; templates&lt;/li&gt;
+&lt;li&gt;Add in server side code and javascript as required.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;The reasons this works for me is because before i start anything, i make sure i have very clean, clear and good looking sketches, this means the the photoshop stage is pretty much in the sketch stage. Then I just take a step to the right, and go straight into the code, head first. What are your thoughts on the process? Do you work similar to me, or how do you work?&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+</feed>

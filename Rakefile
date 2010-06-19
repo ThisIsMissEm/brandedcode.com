@@ -1,5 +1,5 @@
-ssh_user = "micheil@brandedcode.com" # for rsync deployment
-remote_root = "~/webapps/brandedcode/" # for rsync deployment
+ssh_user = "ziggy" # for rsync deployment
+remote_root = "~/sites/brandedcode.com/public/" # for rsync deployment
 
 desc "Clears the Site Directory"
 task :clear => 'styles:clear' do
@@ -41,7 +41,7 @@ namespace :styles do
   desc "Generates new styles"
   task :generate => :clear do
     puts "*** Generating styles ***"
-    system "compass -u"
+    system "compass compile"
     system "cp -r src/_sass/images site/stylesheets/"
   end
 end

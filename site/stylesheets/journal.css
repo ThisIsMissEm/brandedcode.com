@@ -1,3 +1,4 @@
+/* line 2, ../../src/_sass/typography.sass */
 body {
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   line-height: 1.3em;
@@ -6,6 +7,7 @@ body {
   vertical-align: baseline;
 }
 
+/* line 10, ../../src/_sass/typography.sass */
 h1, h2, h3, h4, h5, h6, #section-links a {
   font-family: "museo-slab-1", "museo-slab-2", serif;
   display: block;
@@ -17,83 +19,96 @@ h1, h2, h3, h4, h5, h6, #section-links a {
   text-align: left;
 }
 
+/* line 20, ../../src/_sass/typography.sass */
 h1, h2 {
   font-size: 3em;
   font-weight: 700;
   letter-spacing: -0.02em;
   word-spacing: 0.2em;
   line-height: 1.32em;
-  margin: 0.250em 0 0.68em;
+  margin: 0.25em 0 0.68em;
   color: #e8402c;
-  text-shadow: 0.0225em 0.0225em 0px #a82e20;
+  text-shadow: 0.023em 0.023em 0px #a82e20;
 }
+/* line 30, ../../src/_sass/typography.sass */
 h1 a, h2 a {
   font-style: normal;
 }
+/* line 33, ../../src/_sass/typography.sass */
 h1 a:visited, h1 a:active, h2 a:visited, h2 a:active {
   color: #707072;
   font-style: normal;
-  text-shadow: 0.0225em 0.0225em 0px #191919;
+  text-shadow: 0.023em 0.023em 0px #191919;
 }
+/* line 38, ../../src/_sass/typography.sass */
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus {
   color: #565657;
   font-style: normal;
-  text-shadow: 0.0225em 0.0225em 0px #191919;
+  text-shadow: 0.023em 0.023em 0px #191919;
 }
 
+/* line 43, ../../src/_sass/typography.sass */
 h3 {
   font-size: 1.75em;
   margin: 0 0 0.85em;
 }
 
+/* line 47, ../../src/_sass/typography.sass */
 h4 {
   font-size: 1.5em;
   margin: 0.8em 0 0.6em;
 }
 
+/* line 50, ../../src/_sass/typography.sass */
 h5 {
   font-size: 1.35em;
 }
 
+/* line 52, ../../src/_sass/typography.sass */
 h6 {
   font-size: 1.15em;
 }
 
+/* line 54, ../../src/_sass/typography.sass */
 p {
   font-size: 1em;
   margin: 0 0 1.4em 0;
   line-height: 1.4em;
   clear: both;
   vertical-align: baseline;
-  text-shadow: 1px 1px 0px #fff;
+  text-shadow: 1px 1px 0px white;
 }
 
+/* line 62, ../../src/_sass/typography.sass */
 blockquote {
   margin: 1.8em auto 2.15em;
   vertical-align: baseline;
   border-top: 1px solid #d9d8d5;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid white;
   width: 88%;
   text-align: center;
 }
+/* line 70, ../../src/_sass/typography.sass */
 blockquote p {
   text-align: center;
   font-size: 1.45em;
   color: #707072;
   padding: 0.3em 0.5em;
   margin: 0;
-  border-top: 1px solid #fff;
+  border-top: 1px solid white;
   border-bottom: 1px solid #d9d8d5;
 }
 
+/* line 79, ../../src/_sass/typography.sass */
 img {
-  border: 1px solid #ADAAA5;
+  border: 1px solid #adaaa5;
   display: block;
-  background: #fff;
+  background: white;
   text-align: center;
   vertical-align: middle;
 }
 
+/* line 86, ../../src/_sass/typography.sass */
 ul, ol, dl {
   line-height: 1.4em;
   margin-top: -1em;
@@ -101,63 +116,74 @@ ul, ol, dl {
   vertical-align: baseline;
 }
 
+/* line 92, ../../src/_sass/typography.sass */
 ul {
   list-style-type: disc;
 }
 
+/* line 95, ../../src/_sass/typography.sass */
 ol {
   list-style-type: decimal;
 }
 
+/* line 98, ../../src/_sass/typography.sass */
 hr {
   width: 100%;
   height: 1px;
-  background: #ccc;
+  background: #cccccc;
   border: medium none;
   position: relative;
   clear: both;
   margin: 1.5em 0;
 }
 
+/* line 110, ../../src/_sass/typography.sass */
 form input, form textarea {
   font-family: georgia;
   font-size: 1em;
 }
+/* line 114, ../../src/_sass/typography.sass */
 form input[type="text"] {
-  border: 1px dashed #777;
+  border: 1px dashed #777777;
   border-width: 0 0 1px 0;
   font-style: italic;
   color: #ff0060;
 }
+/* line 120, ../../src/_sass/typography.sass */
 form textarea {
-  border: 1px solid #999;
+  border: 1px solid #999999;
   display: block;
   width: 98.8%;
   height: 12em;
   padding: 0.2em;
 }
 
+/* line 127, ../../src/_sass/typography.sass */
 a {
   text-decoration: none;
   color: #e8402c;
   padding: 0.1em;
   font-style: oblique;
 }
+/* line 134, ../../src/_sass/typography.sass */
 a:active, a:visited {
   color: #404042;
   font-style: oblique;
 }
+/* line 138, ../../src/_sass/typography.sass */
 a:hover, a:focus {
-  color: #000;
+  color: black;
   text-decoration: none;
   font-style: oblique;
 }
 
+/* line 1, ../../src/_sass/layout.sass */
 div {
   display: block;
   position: relative;
 }
 
+/* line 4, ../../src/_sass/core.sass */
 body {
   margin: 0px;
   padding: 0px;
@@ -166,15 +192,18 @@ body {
   overflow-y: scroll;
 }
 
+/* line 11, ../../src/_sass/core.sass */
 .accessibility {
   display: none;
   visibility: visible;
 }
 
-/* ----------------------------------------------- */
+/*----------------------------------------------- */
+/* line 18, ../../src/_sass/core.sass */
 #logo {
   font-size: 1em;
 }
+/* line 21, ../../src/_sass/core.sass */
 #logo a {
   display: block;
   position: relative;
@@ -187,40 +216,45 @@ body {
   font-weight: 700;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #fff;
+  color: white;
   background: #dc3d2a;
   border: 1px solid #a82e20;
   border-top: 3px solid #a82e20;
   border-left: 1px solid #ff4530;
   text-shadow: 2px 2px 2px #a82e20;
 }
+/* line 40, ../../src/_sass/core.sass */
 #logo a:visited, #logo a:active {
-  color: #fff;
+  color: white;
   background: #dc3d2a;
   border-color: #a82e20;
   border-left-color: #ff4530;
   text-shadow: 2px 2px 2px #a82e20;
 }
+/* line 47, ../../src/_sass/core.sass */
 #logo a:hover, #logo a:focus {
-  color: #eee;
+  color: #eeeeee;
   border-color: #191919;
   background: #474746;
   text-shadow: 2px 2px 2px #191919;
 }
 
+/* line 55, ../../src/_sass/core.sass */
 #container {
   zoom: 1;
 }
+/* line 8, ../../src/_sass/layout.sass */
 #container:after {
   content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
   visibility: hidden;
   clear: both;
-  height: 0!important;
+  height: 0 !important;
   display: block;
   line-height: 0;
   font-size: xx-large;
   overflow: hidden;
 }
+/* line 58, ../../src/_sass/core.sass */
 #container hr#end {
   background: transparent url("/stylesheets/images/block_border.png") 0 0 repeat-x;
   border: medium none;
@@ -228,27 +262,31 @@ body {
   margin: 0 0 50px 0;
 }
 
+/* line 3, ../../src/_sass/journal.sass */
 #articles {
   list-style: none;
   margin: 5.8em 0 0;
   padding: 0;
   width: 60em;
 }
+/* line 9, ../../src/_sass/journal.sass */
 #articles .article-item {
   zoom: 1;
   padding: 0 0 1.6em 0;
   margin: 4.1em 0 0 0;
 }
+/* line 8, ../../src/_sass/layout.sass */
 #articles .article-item:after {
   content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
   visibility: hidden;
   clear: both;
-  height: 0!important;
+  height: 0 !important;
   display: block;
   line-height: 0;
   font-size: xx-large;
   overflow: hidden;
 }
+/* line 14, ../../src/_sass/journal.sass */
 #articles .date {
   display: inline;
   float: left;
@@ -256,9 +294,10 @@ body {
   margin: 0;
   margin: 1.35em 20px 0 0;
   font-size: 1.2em;
-  border-left: 35px solid #ADAAA5;
+  border-left: 35px solid #adaaa5;
   background: #d9d8d5 url("/stylesheets/images/date-arrow.png") 100% 50% no-repeat;
 }
+/* line 21, ../../src/_sass/journal.sass */
 #articles .date span {
   display: block;
   background: #d9d8d5;
@@ -268,8 +307,9 @@ body {
   margin: 0 18px 0 0;
   height: 1em;
   width: 120px;
-  text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
 }
+/* line 33, ../../src/_sass/journal.sass */
 #articles .article {
   display: inline;
   float: left;
@@ -277,12 +317,14 @@ body {
   margin: 0;
   width: 38em;
 }
+/* line 37, ../../src/_sass/journal.sass */
 #articles .article .content {
   margin: 0 0 0 7px;
   text-align: justify;
   border-bottom: 1px dashed #cecdcb;
 }
 
+/* line 42, ../../src/_sass/journal.sass */
 #comments {
   clear: both;
   zoom: 1;
@@ -291,17 +333,19 @@ body {
   padding: 1.8em 0 2em 0;
   border-bottom: 1px dashed #cecdcb;
 }
+/* line 8, ../../src/_sass/layout.sass */
 #comments:after {
   content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
   visibility: hidden;
   clear: both;
-  height: 0!important;
+  height: 0 !important;
   display: block;
   line-height: 0;
   font-size: xx-large;
   overflow: hidden;
 }
 
+/* line 50, ../../src/_sass/journal.sass */
 #paginator {
   clear: both;
   zoom: 1;
@@ -310,29 +354,34 @@ body {
   padding: 1.8em 0 2em 0;
   border-bottom: 1px dashed #cecdcb;
 }
+/* line 8, ../../src/_sass/layout.sass */
 #paginator:after {
   content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
   visibility: hidden;
   clear: both;
-  height: 0!important;
+  height: 0 !important;
   display: block;
   line-height: 0;
   font-size: xx-large;
   overflow: hidden;
 }
 
+/* line 59, ../../src/_sass/journal.sass */
 #footer {
   width: 38em;
   padding: 1em 0 0;
   margin: 0 0 0 220px;
 }
+/* line 64, ../../src/_sass/journal.sass */
 #footer p {
   opacity: 0.5;
 }
+/* line 67, ../../src/_sass/journal.sass */
 #footer a {
-  color: #000;
+  color: black;
 }
 
+/* line 70, ../../src/_sass/journal.sass */
 hr#end {
   background: transparent url("/stylesheets/images/block_border.png") 0 0 repeat-x;
   border: medium none;

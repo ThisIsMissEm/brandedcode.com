@@ -1,3 +1,4 @@
+/* line 2, ../../src/_sass/typography.sass */
 body {
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   line-height: 1.3em;
@@ -6,6 +7,7 @@ body {
   vertical-align: baseline;
 }
 
+/* line 10, ../../src/_sass/typography.sass */
 h1, h2, h3, h4, h5, h6, #section-links a {
   font-family: "museo-slab-1", "museo-slab-2", serif;
   display: block;
@@ -17,83 +19,96 @@ h1, h2, h3, h4, h5, h6, #section-links a {
   text-align: left;
 }
 
+/* line 20, ../../src/_sass/typography.sass */
 h1, h2 {
   font-size: 3em;
   font-weight: 700;
   letter-spacing: -0.02em;
   word-spacing: 0.2em;
   line-height: 1.32em;
-  margin: 0.250em 0 0.68em;
+  margin: 0.25em 0 0.68em;
   color: #e8402c;
-  text-shadow: 0.0225em 0.0225em 0px #a82e20;
+  text-shadow: 0.023em 0.023em 0px #a82e20;
 }
+/* line 30, ../../src/_sass/typography.sass */
 h1 a, h2 a {
   font-style: normal;
 }
+/* line 33, ../../src/_sass/typography.sass */
 h1 a:visited, h1 a:active, h2 a:visited, h2 a:active {
   color: #707072;
   font-style: normal;
-  text-shadow: 0.0225em 0.0225em 0px #191919;
+  text-shadow: 0.023em 0.023em 0px #191919;
 }
+/* line 38, ../../src/_sass/typography.sass */
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus {
   color: #565657;
   font-style: normal;
-  text-shadow: 0.0225em 0.0225em 0px #191919;
+  text-shadow: 0.023em 0.023em 0px #191919;
 }
 
+/* line 43, ../../src/_sass/typography.sass */
 h3 {
   font-size: 1.75em;
   margin: 0 0 0.85em;
 }
 
+/* line 47, ../../src/_sass/typography.sass */
 h4 {
   font-size: 1.5em;
   margin: 0.8em 0 0.6em;
 }
 
+/* line 50, ../../src/_sass/typography.sass */
 h5 {
   font-size: 1.35em;
 }
 
+/* line 52, ../../src/_sass/typography.sass */
 h6 {
   font-size: 1.15em;
 }
 
+/* line 54, ../../src/_sass/typography.sass */
 p {
   font-size: 1em;
   margin: 0 0 1.4em 0;
   line-height: 1.4em;
   clear: both;
   vertical-align: baseline;
-  text-shadow: 1px 1px 0px #fff;
+  text-shadow: 1px 1px 0px white;
 }
 
+/* line 62, ../../src/_sass/typography.sass */
 blockquote {
   margin: 1.8em auto 2.15em;
   vertical-align: baseline;
   border-top: 1px solid #d9d8d5;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid white;
   width: 88%;
   text-align: center;
 }
+/* line 70, ../../src/_sass/typography.sass */
 blockquote p {
   text-align: center;
   font-size: 1.45em;
   color: #707072;
   padding: 0.3em 0.5em;
   margin: 0;
-  border-top: 1px solid #fff;
+  border-top: 1px solid white;
   border-bottom: 1px solid #d9d8d5;
 }
 
+/* line 79, ../../src/_sass/typography.sass */
 img {
-  border: 1px solid #ADAAA5;
+  border: 1px solid #adaaa5;
   display: block;
-  background: #fff;
+  background: white;
   text-align: center;
   vertical-align: middle;
 }
 
+/* line 86, ../../src/_sass/typography.sass */
 ul, ol, dl {
   line-height: 1.4em;
   margin-top: -1em;
@@ -101,54 +116,63 @@ ul, ol, dl {
   vertical-align: baseline;
 }
 
+/* line 92, ../../src/_sass/typography.sass */
 ul {
   list-style-type: disc;
 }
 
+/* line 95, ../../src/_sass/typography.sass */
 ol {
   list-style-type: decimal;
 }
 
+/* line 98, ../../src/_sass/typography.sass */
 hr {
   width: 100%;
   height: 1px;
-  background: #ccc;
+  background: #cccccc;
   border: medium none;
   position: relative;
   clear: both;
   margin: 1.5em 0;
 }
 
+/* line 110, ../../src/_sass/typography.sass */
 form input, form textarea {
   font-family: georgia;
   font-size: 1em;
 }
+/* line 114, ../../src/_sass/typography.sass */
 form input[type="text"] {
-  border: 1px dashed #777;
+  border: 1px dashed #777777;
   border-width: 0 0 1px 0;
   font-style: italic;
   color: #ff0060;
 }
+/* line 120, ../../src/_sass/typography.sass */
 form textarea {
-  border: 1px solid #999;
+  border: 1px solid #999999;
   display: block;
   width: 98.8%;
   height: 12em;
   padding: 0.2em;
 }
 
+/* line 127, ../../src/_sass/typography.sass */
 a {
   text-decoration: none;
   color: #e8402c;
   padding: 0.1em;
   font-style: oblique;
 }
+/* line 134, ../../src/_sass/typography.sass */
 a:active, a:visited {
   color: #404042;
   font-style: oblique;
 }
+/* line 138, ../../src/_sass/typography.sass */
 a:hover, a:focus {
-  color: #000;
+  color: black;
   text-decoration: none;
   font-style: oblique;
 }
