@@ -3,7 +3,11 @@
   <title>Branded Code: Journal</title>
   <link href="http://brandedcode.com/journal/atom.xml" rel="self"/>
   <link href="http://brandedcode.com/journal/"/>
+<<<<<<< HEAD
   <updated>2010-06-12T00:35:40+10:00</updated>
+=======
+  <updated>2010-08-21T15:20:55+10:00</updated>
+>>>>>>> bd08d12... Redesign from March 2010.
   <id>http://brandedcode.com/journal/</id>
   <author>
     <name>Micheil Smith</name>
@@ -18,7 +22,11 @@
     <content type="html">
       &lt;p&gt;It&amp;apos;s something I&amp;apos;ve been thinking about for a while, but isn&amp;apos;t it rather sad that rarely today do we see people just saying a simple &lt;em&gt;thanks&lt;/em&gt;.&lt;/p&gt;
 
+<<<<<<< HEAD
 &lt;p&gt;Say thanks to those who make a product or service that you use, say thanks for that link that someone shared with you, or that grand piece of work and possible inspiration that you saw on &lt;em&gt;&lt;a href=&quot;http://dribbble.com&quot;&gt;dribbble&lt;/a&gt;&lt;/em&gt;. You could also say thanks to the producers of that &lt;a href=&quot;http://thechangelog.com&quot;&gt;awesome&lt;/a&gt; &lt;a href=&quot;http://carsonified.com/blog/category/tvr/&quot;&gt;podcast&lt;/a&gt; you listen to.&lt;/p&gt;
+=======
+&lt;p&gt;Say thanks to those who make a product or service that you use, say thanks for that link that someone shared with you, or that grand piece of work and possible inspiration that you saw on &lt;em&gt;&lt;a href="http://dribbble.com"&gt;dribbble&lt;/a&gt;&lt;/em&gt;. You could also say thanks to the producers of that &lt;a href="http://thechangelog.com"&gt;awesome&lt;/a&gt; &lt;a href="http://carsonified.com/blog/category/tvr/"&gt;podcast&lt;/a&gt; you listen to.&lt;/p&gt;
+>>>>>>> bd08d12... Redesign from March 2010.
 
 &lt;p&gt;So if you&amp;apos;ve said &lt;em&gt;thanks&lt;/em&gt; to somebody today, give yourself a pat on the back.&lt;/p&gt;
 
@@ -67,9 +75,15 @@
     <updated>2009-05-20T00:00:00+10:00</updated>
     <id>http://brandedcode.com/journal/journal/2009/05/20/why-not-just-compile-your-css</id>
     <content type="html">
+<<<<<<< HEAD
       &lt;p&gt;If you&amp;#8217;ve been following topics on front-end web development or more specifically the advent of CSS3, you may have seen loads of talk about &lt;a href=&quot;http://disruptive-innovations.com/zoo/cssvariables/&quot;&gt;CSS variables&lt;/a&gt;, why we need them and why &lt;a href=&quot;http://http://meiert.com/en/blog/20090401/why-css-needs-no-variables/&quot;&gt;we don&amp;#8217;t&lt;/a&gt;. The specification on CSS variables seems pretty dry, but from what I can gather, variables in CSS are just like variables in any other programming language, they allow you to define a value once, and then reuse it later.&lt;/p&gt;
 
 &lt;p&gt;So, because we all know how quick browser manufactures are at making and implementing new features, some people have decided to implement this feature in various ways, including using php or your favourite server-side language to parse the file. Others have just setup campaigns and &lt;a href=&quot;http://twitter.com/stanton/status/1564023785&quot;&gt;polls&lt;/a&gt; as to whether we should have them, while the majority of people have just continued rolling by.&lt;/p&gt;
+=======
+      &lt;p&gt;If you&amp;#8217;ve been following topics on front-end web development or more specifically the advent of CSS3, you may have seen loads of talk about &lt;a href="http://disruptive-innovations.com/zoo/cssvariables/"&gt;CSS variables&lt;/a&gt;, why we need them and why &lt;a href="http://http://meiert.com/en/blog/20090401/why-css-needs-no-variables/"&gt;we don&amp;#8217;t&lt;/a&gt;. The specification on CSS variables seems pretty dry, but from what I can gather, variables in CSS are just like variables in any other programming language, they allow you to define a value once, and then reuse it later.&lt;/p&gt;
+
+&lt;p&gt;So, because we all know how quick browser manufactures are at making and implementing new features, some people have decided to implement this feature in various ways, including using php or your favourite server-side language to parse the file. Others have just setup campaigns and &lt;a href="http://twitter.com/stanton/status/1564023785"&gt;polls&lt;/a&gt; as to whether we should have them, while the majority of people have just continued rolling by.&lt;/p&gt;
+>>>>>>> bd08d12... Redesign from March 2010.
 
 &lt;p&gt;An example of css variables could be as follows:&lt;/p&gt;
 
@@ -144,10 +158,17 @@
 &lt;p&gt;You can Learn more about CSS Frameworks at:&lt;/p&gt;
 
 &lt;ul&gt;
+<<<<<<< HEAD
 &lt;li&gt;Alistapart: Issue #239: &lt;a href=&quot;http://www.alistapart.com/articles/frameworksfordesigners&quot;&gt;Framework For Designers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Monday By Noon: &lt;a href=&quot;http://mondaybynoon.com/2007/08/27/please-do-not-use-css-frameworks/&quot;&gt;Please Do Not Use CSS Frameworks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Smashing Magazine: &lt;a href=&quot;http://www.smashingmagazine.com/2007/09/21/css-frameworks-css-reset-design-from-scratch/&quot;&gt;CSS Frameworks + CSS Reset: Design From Scratch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Wikipedia: &lt;a href=&quot;http://en.wikipedia.org/wiki/CSS_framework&quot;&gt;CSS Frameworks&lt;/a&gt;&lt;/li&gt;
+=======
+&lt;li&gt;Alistapart: Issue #239: &lt;a href="http://www.alistapart.com/articles/frameworksfordesigners"&gt;Framework For Designers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Monday By Noon: &lt;a href="http://mondaybynoon.com/2007/08/27/please-do-not-use-css-frameworks/"&gt;Please Do Not Use CSS Frameworks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Smashing Magazine: &lt;a href="http://www.smashingmagazine.com/2007/09/21/css-frameworks-css-reset-design-from-scratch/"&gt;CSS Frameworks + CSS Reset: Design From Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wikipedia: &lt;a href="http://en.wikipedia.org/wiki/CSS_framework"&gt;CSS Frameworks&lt;/a&gt;&lt;/li&gt;
+>>>>>>> bd08d12... Redesign from March 2010.
 &lt;/ul&gt;
 
 
@@ -162,11 +183,19 @@
     <updated>2008-06-08T00:00:00+10:00</updated>
     <id>http://brandedcode.com/journal/journal/2008/06/08/my-development-process</id>
     <content type="html">
+<<<<<<< HEAD
       &lt;p&gt;Recently there&amp;#8217;s been a load of discussion about the flow of development different companies use in order to make websites or applications. From the &lt;a href=&quot;http://www.37signals.com/svn/posts/1061-why-we-skip-photoshop&quot;&gt;37signals&lt;/a&gt; team, we had the process of:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Paper Sketches&lt;/li&gt;
 &lt;li&gt;&lt;abbr title=&quot;eXtensible HyperText Markup Language&quot;&gt;xHTML&lt;/abbr&gt; + &lt;abbr title=&quot;Cascading StyleSheets&quot;&gt;CSS&lt;/abbr&gt;&lt;/li&gt;
+=======
+      &lt;p&gt;Recently there&amp;#8217;s been a load of discussion about the flow of development different companies use in order to make websites or applications. From the &lt;a href="http://www.37signals.com/svn/posts/1061-why-we-skip-photoshop"&gt;37signals&lt;/a&gt; team, we had the process of:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Paper Sketches&lt;/li&gt;
+&lt;li&gt;&lt;abbr title="eXtensible HyperText Markup Language"&gt;xHTML&lt;/abbr&gt; + &lt;abbr title="Cascading StyleSheets"&gt;CSS&lt;/abbr&gt;&lt;/li&gt;
+>>>>>>> bd08d12... Redesign from March 2010.
 &lt;/ol&gt;
 
 
@@ -177,7 +206,11 @@
 &lt;li&gt;Rough Paper Sketches&lt;/li&gt;
 &lt;li&gt;Refined Sketches&lt;/li&gt;
 &lt;li&gt;Photoshop mockup&lt;/li&gt;
+<<<<<<< HEAD
 &lt;li&gt;Prototyping in &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt; + &lt;abbr title=&quot;Cascading StyleSheets&quot;&gt;CSS&lt;/abbr&gt;&lt;/li&gt;
+=======
+&lt;li&gt;Prototyping in &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt; + &lt;abbr title="Cascading StyleSheets"&gt;CSS&lt;/abbr&gt;&lt;/li&gt;
+>>>>>>> bd08d12... Redesign from March 2010.
 &lt;li&gt;Full production development&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -190,7 +223,11 @@
 &lt;li&gt;Research and Inspire&lt;/li&gt;
 &lt;li&gt;Rough paper sketches&lt;/li&gt;
 &lt;li&gt;Dimension sizes of things on using tracing paper.&lt;/li&gt;
+<<<<<<< HEAD
 &lt;li&gt;Work from paper straight into &lt;abbr title=&quot;eXtensible HyperText Markup Language&quot;&gt;xHTML&lt;/abbr&gt; + &lt;abbr title=&quot;Cascading StyleSheets&quot;&gt;CSS&lt;/abbr&gt; templates&lt;/li&gt;
+=======
+&lt;li&gt;Work from paper straight into &lt;abbr title="eXtensible HyperText Markup Language"&gt;xHTML&lt;/abbr&gt; + &lt;abbr title="Cascading StyleSheets"&gt;CSS&lt;/abbr&gt; templates&lt;/li&gt;
+>>>>>>> bd08d12... Redesign from March 2010.
 &lt;li&gt;Add in server side code and javascript as required.&lt;/li&gt;
 &lt;/ol&gt;
 
