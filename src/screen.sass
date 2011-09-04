@@ -1,157 +1,112 @@
-/*
-  Welcome to Compass.
-  In this file you should write your main styles. (or centralize your imports)
-  Import this file using the following HTML or equivalent:
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-
 @import compass/reset
-@import "compass/css3/text-shadow"
+@import compass/css3/border-radius
 
-/**/
-
-$darkgrey:  #303030
-$grey:      #5a5a5a
-$litegrey:  #e0e0e0
-$darkpink:  #bf0060
-$pink:      #fd0495
-
-#grid
-  width: 44em
-  position: absolute
-  top: 0
-  left: 0
-
-#grid div.horiz
-  width: 100%
-  height: 21px
-  border-bottom: 1px dotted #ddd
-  margin: 0
-  padding: 0
-
-#right_gutter
-  position: absolute
-  left: 44em
-  top: 0
-  bottom: 0
-  width: 1px
-  margin-left: -1px
-  border-right: 1px dotted #ddd
-  
-
+$darkgrey:  #5a5a50
+$grey:      #8c8c88
+$litegrey:  #dddddd
+$red:       #ea4030
+$white:     #fbfbfb
 
 body
-  font:
-    family: "Helvetica Neue", Helvetica,Arial,sans-serif
-    size: 95%
-    weight: 400
-  color: $grey
-  padding: 0
   margin: 0
-  line-height: 1.4em
-  background: #fbfbfb
-  text-rendering: optimizelegibility
-  overflow-y: scroll
-
-strong
-  font-weight: bold
-
-em
-  font-style: italic
-
-a, a:link
-  color: $pink
-  text-decoration: none
-  font-style: normal
-  
-  &:visited, &:active
-    color: $darkgrey
-    text-decoration: underline
-    font-style: italic
-  
-  &:hover, &:focus
-    color: $darkpink
-    text-decoration: underline
-    font-style: normal
-
-h1
-  margin: 0.19em 10em 0.09em 0em
-  padding: 0.2em 0
+  padding: 0
   font:
-    size: 4em
-    family: "museo-slab-1","museo-slab-2", "Helvetica Neue", Helvetica,Arial,sans-serif
-    weight: 700
-  line-height: 1.45em
-  text-transform: uppercase
-  letter-spacing: -0.01em
-
-
-h2
-  font-size: 2em
-  line-height: 1.45em
-  margin: 0 0 0.3375em 0
-  color: $darkgrey
-
-h3
-  font-size: 1.5em
+    family: "Helvetica Neue", Helvetica, sans-serif
+    size: 95%
+    weight: normal
   line-height: 1.4em
-  margin: 0 0 0.75em 0
-
-p
-  line-height: 1.35em
-  font-size: 1.1em
-  margin: 1em 0 1.35em
+  color: $grey
+  background: $white
 
 header, section, footer, div
   display: block
   position: relative
 
-header
-  width: 44em
-  margin: 5.1em 0 1.6em 0
-  
-  &#non-master
-    padding: 0 0 0 6.25em
-  
-  h2
-    margin-left: 3.15em
-  
-  div
-    margin: 0em 0 0 0
-    padding: 0 0 0.15em 6.15em
-    background: $pink
-    color: #fbfbfb
-    opacity: 1
-    
-    h1
-      color: #fbfbfb
-
-section
-  width: 35em
-  margin-left: 0
-  padding: 0 0 1em 6.25em
-  
-  h2
-    margin-right: 1em
-    word-spacing: 0.05em
-  
-footer
-  width: 49.8em
+.clear
   clear: both
-  font-size: 0.75em
-  border-top: 1px solid $litegrey
-  margin: 0.15em 0 0 8.1em
-  padding: 0 0.7em 0.7em 0.3em
-  word-spacing: 0.1em
+  position: relative
+
+#hi
+  @include border-radius(20em)
+  display: block
+  position: relative
+  margin: 0px auto 3em
+  width: 20em
+  height: 20em
+  background: $red
+  color: $white
   
-  hr
-    display: none
+  h2
+    display: block
+    position: relative
+    top: 0.04em
+    left: 0.04em
+    font:
+      family: "lobster-1","lobster-2","Georgia","Times","Time New Roman",sans-serif
+      size: 14em
+      weight: bold
+    text:
+      align: left
+      indent: 0.3em
+    line-height: 1.2em
+    color: $white
+    background: $red
+    width: 1.3em
+    height: 1.3em
+    @include border-radius(1.28em)
+    border: 6px solid #fff
+
+#page
+  width: 35em
+  margin: 3em 0 0 8em
   
-  p
-    margin: 0.75em 0 0 0
-    padding-bottom: 0
+  section
+    h1
+      font:
+        size: 3.6em
+        weight: 200
+      color: $darkgrey
+      line-height: 1.6em
+      border-top: 1px solid $litegrey
+      margin: 0
+      padding: 0.2333333333em 2px 0
+      
+    p
+      font:
+        size: 1.4em
+        weight: 200
+      line-height: 1.4em
+      margin: 0 2px 1.6em 2px
+      color: $grey
+      
+      a, a:link
+        color: $red
+        text-decoration: none
+        
+        &:visited, &:active
+          color: $darkgrey
+          text-decoration: underline
+          font-style: italic
+          
+        &:hover, &:focus
+          color: $darkgrey
+          font-style: normal
+          
+  footer
+    border-top: 1px solid $litegrey
+    margin: 0
+    padding: 0.4333333333em 2px 0
+    word-spacing: 0.5em
     
-    span
-      font-size: 1.3em
-      line-height: 0.9em
-      vertical-align: top
-      color: #7a7a7a
+    a, a:link
+      color: $grey
+      text-decoration: none
+      
+      &:visited, &:active
+        color: $darkgrey
+        text-decoration: underline
+        font-style: normal
+        
+      &:hover, &:focus
+        color: $darkgrey
+        font-style: normal

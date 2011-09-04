@@ -1,4 +1,0 @@
-destination: ./site
-source: ./src
-markdown: rdiscount
-paginate: 10

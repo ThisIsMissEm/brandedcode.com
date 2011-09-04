@@ -2,43 +2,52 @@
 <html>
 <head>
   <title>This is Branded Code</title>
-  <script src="/javascripts/html5shim.js" type="text/javascript" charset="utf-8"></script>
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 700px)" href="stylesheets/700.css" />
+  <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 480px)" href="stylesheets/480.css" />
   <script type="text/javascript" src="http://use.typekit.com/afj3ypu.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-  <header>
-    <h2>Hi, this is</h2>
-    <div>
-      <h1>Branded Code.</h1>
+  <div id="page">
+    <div id="hi">
+      <h2>hi</h2>
     </div>
-  </header>
-  <section>
-    <h2>We have a theory about things. This theory is that everything can be interesting, fun and creative</h2>
-    <p>Today, we want to work with people who give us challenges, people that are innovators and creators, people who want to take technology to another level, people who want make something for change, or people that just create something fun &amp; awesome.</p>
-    <p>If you're one of these people, then <a href="mailto:micheil@brandedcode.com" title="Email Micheil from Branded Code">we should talk.</a></p>
-  </section>
-  <footer>
-    <hr/>
-    <p><span>//</span>&ensp;A part of <a href="http://theboringneue.com">The Boring Neue</a></p>
-  </footer>
-  
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="/javascripts/hashgrid.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript" src="http://www.observerapp.com/record.js"></script>
+    <section>
+      <h1>This is BrandedCode</h1>
+      <p>A one-man studio with a simple philosophy: If you're not passionate about the things that you're doing, then you're not doing them properly.</p>
+      <p>If you think passion is everything, then <a href="mailto:micheil@brandedcode.com" title="Email Micheil from Branded Code">we should talk</a>.</p>
+    </section>
+    <footer>
+      <p><a href="http://github.com/miksago" title="Micheil's Github profile">Github</a> / <a href="http://twitter.com/miksago" title="Follow Micheil on Twitter">Twitter</a> / <a href="resume.pdf" title="You may want to check out Micheil's R&eacute;sum&eacute;">R&eacute;sum&eacute;</a>.</p>
+    </footer>
+    <i class='clear'></i>
+  </div>
+  <script src="javascripts/html5shim.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/mediaqueries.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
+    // ObserverApp:
+    (function(h,c){var l=function(){if(!Array.indexOf)Array.prototype.indexOf=function(a){for(var b=0;b<this.length;b++)if(this[b]==a)return b;return-1};var m=c.referrer,j=c.URL,f="",e=null,i=null;function k(){return("https:"==c.location.protocol?"https://":"http://")+(i?i:"www.observerapp.com")}return{flashVersion:-1,plugins:{d:function(a){a.a("title",c.title)},e:function(a){a.a("referrer",m||"null");a.a("url",j||"null")},f:function(a){var b=navigator.plugins;if(b&&b.length){b=navigator.mimeTypes;var d=
+    RegExp("([0-9]+[.]{1}[0-9]+)","g");if((mimeType=b["application/x-shockwave-flash"])&&(flashDescription=mimeType.enabledPlugin.description))a.flashVersion=flashDescription.match(d)[0].split(".")[0]}else navigator.appVersion.indexOf("Mac")==-1&&h.execScript&&c.write('<script type="text/vbscript">\nOn Error Resume Next \nDim flash \nFor i = 20 To 3 Step -1 \nSet flash = CreateObject("ShockwaveFlash.ShockwaveFlash." & i) \nIf IsObject(flash) Then \nObserver.flashVersion = i \nExit For \nEnd If \nNext \n<\/script>');
+    a.a("flash",a.flashVersion)}},a:function(a,b){f+="&"+a+"="+encodeURIComponent(b)},b:function(){var a=navigator.cookieEnabled?true:false;if(typeof navigator.cookieEnabled=="undefined"&&!a){c.cookie="testcookie";a=c.cookie.indexOf("testcookie")!=-1?true:false}return a},c:function(){return!this.b()||j.indexOf("_ignore_observer=")!==-1},setSiteID:function(a){e=a},record:function(a,b){e=a;i=b;if(!this.c(e)){f+="?k="+e;var d=this.plugins;for(var g in d)d[g](this);f+="&s="+(new Date).getTime();d=c.createElement("script");
+    d.type="text/javascript";d.async=true;d.src=k()+"/record/"+f;g=c.getElementsByTagName("script")[0];g.parentNode.insertBefore(d,g)}},incrementEvent:function(a){a=k()+"/api/site/"+e+"/events/increment/"+a+"/?imageResponse&d="+(new Date).getTime();(new Image).src=a}}}();h.Observer=l;h.Observerapp=l})(this,document);
+    
+    // GA:
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-10785031-1']);
     _gaq.push(['_trackPageview']);
 
-    (function() {
+    document.onload = function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      
-      Observerapp.record("agtvYnNlcnZlcmFwcHINCxIEU2l0ZRjBu_sBDA");
-    })();
+      try { 
+        Observerapp.record("4c68e02302d89fcb02000093");
+        Observerapp.incrementEvent("e5a7663d");
+      } catch(e) {};
+    };
   </script>
 </body>
 </html>
