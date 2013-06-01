@@ -1,64 +1,69 @@
-/* line 14, ../../../../../../../Users/micheil/.rvm/gems/ruby-1.8.7-p249/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
+  font: inherit;
   font-size: 100%;
-  font-family: inherit;
   vertical-align: baseline;
 }
 
-/* line 17, ../../../../../../../Users/micheil/.rvm/gems/ruby-1.8.7-p249/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
   line-height: 1;
-  color: black;
-  background: white;
 }
 
-/* line 19, ../../../../../../../Users/micheil/.rvm/gems/ruby-1.8.7-p249/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 21, ../../../../../../../Users/micheil/.rvm/gems/ruby-1.8.7-p249/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
-  vertical-align: middle;
 }
 
-/* line 23, ../../../../../../../Users/micheil/.rvm/gems/ruby-1.8.7-p249/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 25, ../../../../../../../Users/micheil/.rvm/gems/ruby-1.8.7-p249/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
-  quotes: "" "";
+  quotes: none;
 }
-/* line 96, ../../../../../../../Users/micheil/.rvm/gems/ruby-1.8.7-p249/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
+  content: none;
 }
 
-/* line 27, ../../../../../../../Users/micheil/.rvm/gems/ruby-1.8.7-p249/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 10, ../src/screen.sass */
+/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../src/screen.scss */
 body {
   margin: 0;
   padding: 0;
@@ -66,29 +71,28 @@ body {
   font-size: 95%;
   font-weight: normal;
   line-height: 1.4em;
-  color: #8c8c88;
+  color: #7c7c77;
   background: #fbfbfb;
 }
 
-/* line 21, ../src/screen.sass */
+/* line 24, ../src/screen.scss */
 header, section, footer, div {
   display: block;
   position: relative;
 }
 
-/* line 25, ../src/screen.sass */
+/* line 29, ../src/screen.scss */
 .clear {
   clear: both;
   position: relative;
 }
 
-/* line 29, ../src/screen.sass */
+/* line 34, ../src/screen.scss */
 #hi {
-  -moz-border-radius: 20em;
   -webkit-border-radius: 20em;
-  -o-border-radius: 20em;
+  -moz-border-radius: 20em;
   -ms-border-radius: 20em;
-  -khtml-border-radius: 20em;
+  -o-border-radius: 20em;
   border-radius: 20em;
   display: block;
   position: relative;
@@ -98,7 +102,7 @@ header, section, footer, div {
   background: #ea4030;
   color: #fbfbfb;
 }
-/* line 39, ../src/screen.sass */
+/* line 43, ../src/screen.scss */
 #hi h2 {
   display: block;
   position: relative;
@@ -114,21 +118,21 @@ header, section, footer, div {
   background: #ea4030;
   width: 1.3em;
   height: 1.3em;
-  -moz-border-radius: 1.28em;
   -webkit-border-radius: 1.28em;
-  -o-border-radius: 1.28em;
+  -moz-border-radius: 1.28em;
   -ms-border-radius: 1.28em;
-  -khtml-border-radius: 1.28em;
+  -o-border-radius: 1.28em;
   border-radius: 1.28em;
   border: 6px solid white;
+  letter-spacing: -0.007em;
 }
 
-/* line 59, ../src/screen.sass */
+/* line 68, ../src/screen.scss */
 #page {
   width: 35em;
-  margin: 3em 0 0 8em;
+  margin: 2em 0 0 8em;
 }
-/* line 64, ../src/screen.sass */
+/* line 72, ../src/screen.scss */
 #page section h1 {
   font-size: 3.6em;
   font-weight: 200;
@@ -136,51 +140,72 @@ header, section, footer, div {
   line-height: 1.6em;
   border-top: 1px solid #dddddd;
   margin: 0;
-  padding: 0.233em 2px 0;
+  padding: 0.23333em 2px 0;
 }
-/* line 74, ../src/screen.sass */
+/* line 83, ../src/screen.scss */
 #page section p {
   font-size: 1.4em;
   font-weight: 200;
   line-height: 1.4em;
   margin: 0 2px 1.6em 2px;
-  color: #8c8c88;
+  color: #7c7c77;
 }
-/* line 82, ../src/screen.sass */
+/* line 91, ../src/screen.scss */
 #page section p a, #page section p a:link {
   color: #ea4030;
   text-decoration: none;
 }
-/* line 86, ../src/screen.sass */
+/* line 94, ../src/screen.scss */
 #page section p a:visited, #page section p a:active, #page section p a:link:visited, #page section p a:link:active {
-  color: #5a5a50;
+  color: #bcbcbb;
   text-decoration: underline;
   font-style: italic;
 }
-/* line 91, ../src/screen.sass */
+/* line 99, ../src/screen.scss */
 #page section p a:hover, #page section p a:focus, #page section p a:link:hover, #page section p a:link:focus {
   color: #5a5a50;
   font-style: normal;
 }
-/* line 95, ../src/screen.sass */
+/* line 104, ../src/screen.scss */
+#page section p strong {
+  font-weight: bold;
+}
+/* line 108, ../src/screen.scss */
+#page section p small {
+  margin-top: -0.5em;
+  font-size: 0.5em;
+  display: block;
+  letter-spacing: 0.05em;
+}
+/* line 115, ../src/screen.scss */
+#page section p:last-child {
+  margin-bottom: 1.1em;
+}
+/* line 119, ../src/screen.scss */
+#page section blockquote p {
+  font-style: italic;
+  color: #9c9c99;
+  margin-left: 2em;
+}
+/* line 125, ../src/screen.scss */
 #page footer {
   border-top: 1px solid #dddddd;
   margin: 0;
-  padding: 0.433em 2px 0;
+  padding: 0.43333em 2px 1em;
   word-spacing: 0.5em;
 }
-/* line 101, ../src/screen.sass */
+/* line 130, ../src/screen.scss */
 #page footer a, #page footer a:link {
-  color: #8c8c88;
+  color: #7c7c77;
   text-decoration: none;
 }
-/* line 105, ../src/screen.sass */
+/* line 133, ../src/screen.scss */
 #page footer a:visited, #page footer a:active, #page footer a:link:visited, #page footer a:link:active {
-  color: #5a5a50;
+  color: #bcbcbb;
   text-decoration: underline;
   font-style: normal;
 }
-/* line 110, ../src/screen.sass */
+/* line 138, ../src/screen.scss */
 #page footer a:hover, #page footer a:focus, #page footer a:link:hover, #page footer a:link:focus {
   color: #5a5a50;
   font-style: normal;

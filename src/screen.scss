@@ -1,0 +1,144 @@
+@import "compass/reset";
+@import "compass/css3/border-radius";
+
+$darkgrey: #5a5a50;
+$grey: #7c7c77;
+$medgrey: #bcbcbb;
+$litegrey: #dddddd;
+$red: #ea4030;
+$white: #fbfbfb;
+
+body {
+  margin: 0;
+  padding: 0;
+  font: {
+    family: "Helvetica Neue", Helvetica, sans-serif;
+    size: 95%;
+    weight: normal;
+  };
+  line-height: 1.4em;
+  color: $grey;
+  background: $white;
+}
+
+header, section, footer, div {
+  display: block;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+  position: relative;
+}
+
+#hi {
+  @include border-radius(20em);
+  display: block;
+  position: relative;
+  margin: 0px auto 3em;
+  width: 20em;
+  height: 20em;
+  background: $red;
+  color: $white;
+  h2 {
+    display: block;
+    position: relative;
+    top: 0.04em;
+    left: 0.04em;
+    font: {
+      family: "lobster-1", "lobster-2", "Georgia", "Times", "Time New Roman", sans-serif;
+      size: 14em;
+      weight: bold;
+    };
+    text: {
+      align: left;
+      indent: 0.3em;
+    };
+    line-height: 1.2em;
+    color: $white;
+    background: $red;
+    width: 1.3em;
+    height: 1.3em;
+    @include border-radius(1.28em);
+    border: 6px solid white;
+    letter-spacing: -0.007em;
+  }
+}
+
+#page {
+  width: 35em;
+  margin: 2em 0 0 8em;
+  section {
+    h1 {
+      font: {
+        size: 3.6em;
+        weight: 200;
+      };
+      color: $darkgrey;
+      line-height: 1.6em;
+      border-top: 1px solid $litegrey;
+      margin: 0;
+      padding: 0.23333em 2px 0;
+    }
+    p {
+      font: {
+        size: 1.4em;
+        weight: 200;
+      };
+      line-height: 1.4em;
+      margin: 0 2px 1.6em 2px;
+      color: $grey;
+      a, a:link {
+        color: $red;
+        text-decoration: none;
+        &:visited, &:active {
+          color: $medgrey;
+          text-decoration: underline;
+          font-style: italic;
+        }
+        &:hover, &:focus {
+          color: $darkgrey;
+          font-style: normal;
+        }
+      }
+      strong {
+        font-weight: bold;
+      }
+
+      small {
+        margin-top: -0.5em;
+        font-size: 0.5em;
+        display: block;
+        letter-spacing: 0.05em;
+      }
+
+      &:last-child {
+        margin-bottom: 1.1em;
+      }
+    }
+    blockquote p {
+      font-style: italic;
+      color: #9c9c99;
+      margin-left: 2em;
+    }
+  }
+  footer {
+    border-top: 1px solid $litegrey;
+    margin: 0;
+    padding: 0.43333em 2px 1em;
+    word-spacing: 0.5em;
+    a, a:link {
+      color: $grey;
+      text-decoration: none;
+      &:visited, &:active {
+        color: $medgrey;
+        text-decoration: underline;
+        font-style: normal;
+      }
+      &:hover, &:focus {
+        color: $darkgrey;
+        font-style: normal;
+      }
+    }
+  }
+}

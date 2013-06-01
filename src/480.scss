@@ -1,0 +1,36 @@
+@import "compass/css3/border-radius";
+
+#page {
+  margin: 40px 20px;
+  width: 280px;
+  height: 100%;
+  section {
+    h1 {
+      font-size: 1.6em;
+    }
+    p {
+      font-size: 1.1em;
+    }
+  }
+}
+
+#hi {
+  width: 12em;
+  height: 12em;
+  @include border-radius(12em);
+  h2 {
+    top: 0.0425em;
+    left: 0.0425em;
+    font: {
+      size: 8em;
+    };
+    text: {
+      indent: 0.225em;
+    };
+    line-height: 1.2em;
+    width: 1.325em;
+    height: 1.325em;
+    @include border-radius(1.28em);
+    letter-spacing: -0.015em;
+  }
+}
