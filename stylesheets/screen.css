@@ -108,7 +108,7 @@ header, section, footer, div {
   position: relative;
   top: 0.04em;
   left: 0.04em;
-  font-family: "lobster-1", "lobster-2", "Georgia", "Times", "Time New Roman", sans-serif;
+  font-family: 'Lobster', cursive;
   font-size: 14em;
   font-weight: bold;
   text-align: left;
