@@ -37,8 +37,12 @@ header, section, footer, div {
     font-size: 16em;
   }
 
-  @media only screen and (max-width: 30em){
+  @media only screen and (max-width: 35em){
     font-size: 14em;
+  }
+
+  @media only screen and (max-width: 20em){
+    font-size: 10em;
   }
 }
 
@@ -46,23 +50,20 @@ header, section, footer, div {
   width: 35em;
   margin: 2em 0 0 8em;
 
-  @media only screen and (max-width: 40em){
-    width: 30em;
+  @media only screen and (max-width: 35em){
+    width: 25em;
     margin: 40px 20px;
   }
 
-  @media only screen and (max-width: 30em){
-    width: 20em;
+  @media only screen and (max-width: 20em){
+    width: 16em;
+    margin: 40px 20px;
   }
 }
 
 section {
   @media only screen and (max-width: 40em){
     font-size: 0.9em;
-
-    h1 {
-      font-size: 2.4em;
-    }
   }
 
   h1, h2 {
@@ -76,20 +77,30 @@ section {
     line-height: 1.2em;
     font-weight: 200;
     border-top: 1px solid $litegrey;
+
+    @media only screen and (max-width: 40em){
+      font-size: 2.4em;
+    }
+    @media only screen and (max-width: 20em){
+      font-size: 2em;
+    }
   }
 
   h2, p {
+    font-size: 1.4em;
     line-height: 1.6em;
+
+    @media only screen and (max-width: 20em){
+      font-size: 1.2em;
+    }
   }
 
   h2 {
-    font-size: 1.4em;
     font-weight: 600;
     margin: 1.6em 0 0.6em;
   }
 
   p {
-    font-size: 1.4em;
     font-weight: 200;
     margin: 0 0 1.6em 0;
     color: $grey;
