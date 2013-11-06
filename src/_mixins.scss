@@ -1,0 +1,82 @@
+/*
+  Various mixins:  
+-------------------------------------------------------------------------------*/
+
+@mixin square($size){
+  height: $size;
+  width: $size;
+}
+
+// From bourbon.io - addons/position:
+@mixin position ($position: relative, $coordinates: 0 0 0 0) {
+  @if type-of($position) == list {
+    $coordinates: $position;
+    $position: relative;
+  }
+
+  $top: nth($coordinates, 1);
+  $right: nth($coordinates, 2);
+  $bottom: nth($coordinates, 3);
+  $left: nth($coordinates, 4);
+
+  position: $position;
+
+  @if $top == auto {
+    top: $top;
+  }
+  @else if not(unitless($top)) {
+    top: $top;
+  }
+
+  @if $right == auto {
+    right: $right;
+  }
+  @else if not(unitless($right)) {
+    right: $right;
+  }
+
+  @if $bottom == auto {
+    bottom: $bottom;
+  }
+  @else if not(unitless($bottom)) {
+    bottom: $bottom;
+  }
+
+  @if $left == auto {
+    left: $left;
+  }
+  @else if not(unitless($left)) {
+    left: $left;
+  }
+}
+
+@mixin logo-base($size){
+  @include square(1em);
+  border-radius: 1em;
+  font-size: $size;
+  padding: 0.03em;
+  border: 0.03em solid;
+  
+  span {
+    @include square(100%);
+    border-radius: 1em;
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0.1em;
+    line-height: 1.2em;
+    letter-spacing: -0.007em;
+  }
+}
+
+@mixin logo-color($foreground, $background){
+  border-color: $background;
+  background: $foreground;
+
+  span {
+    color: $foreground;
+    background: $background;
+  }
+}
