@@ -37,7 +37,9 @@ progress {
 template {
   display: none;
 }
+
 a {
+  color: #552E99;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
