@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Responsive from 'react-responsive'
 
 const Button = ({ isPrimary, ...props}) => (
   <a style={{
     display: "inline-block",
     marginRight: "20px",
+    marginBottom: "20px",
     padding: "10px 26px",
     background: isPrimary ? '#6833DD' : '#aaa',
     color: 'white',
@@ -20,10 +22,16 @@ const Button = ({ isPrimary, ...props}) => (
 
 const IndexPage = () => (
   <div style={{color: '#222' }}>
-    <header>
-      <h1 style={{ fontSize: '60px', fontWeight: 800, color: '#6833DD' }}>BrandedCode</h1>
-      <h2 style={{ fontSize: '24px', fontWeight: 800 }}>The former brand of Emelia Smith</h2>
-    </header>
+    <Responsive minDeviceWidth={600}>
+      {(matches) => {
+        return (
+          <header>
+            <h1 style={{ fontSize: matches ? '60px' : '48px', fontWeight: 800, color: '#6833DD' }}>BrandedCode</h1>
+            <h2 style={{ fontSize: matches ? '24px' : '20px', fontWeight: 800 }}>The former brand of Emelia Smith</h2>
+          </header>
+        )
+      }}
+    </Responsive>
     <section style={{ color: '#666' }}>
       <p>After almost a decade as a software engineer, I have decided to stop working in the tech industry.</p>
       <p>On April 4th 2017, I published <a href="https://medium.com/@thisismissem/tech-this-is-good-bye-19b88b2a760f" title="Read the article “Tech, This Is Good Bye.”">an article</a> detailing my story of working in the tech industry, and stating that I'd be leaving the industry. Over twenty thousand people viewed the article, and ten thousand people read it, according to Medium. People tried to encourage me to stay in the tech industry, but I knew that it was time for a new chapter in my life.</p>
