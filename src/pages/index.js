@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Responsive from 'react-responsive'
 
 const Button = ({ isPrimary, ...props}) => (
@@ -24,16 +23,10 @@ const Today = new Date()
 
 const IndexPage = () => (
   <div style={{color: '#222' }}>
-    <Responsive minDeviceWidth={600}>
-      {(matches) => {
-        return (
-          <header>
-            <h1 style={{ fontSize: matches ? '60px' : '48px', fontWeight: 800, color: '#6833DD' }}>BrandedCode</h1>
-            <h2 style={{ fontSize: matches ? '24px' : '20px', fontWeight: 800 }}>The online presence of Emelia Smith</h2>
-          </header>
-        )
-      }}
-    </Responsive>
+    <header id="header">
+      <h1 style={{ fontSize: '3em', fontWeight: 800, color: '#6833DD' }}>BrandedCode</h1>
+      <h2 style={{ fontSize: '1em', fontWeight: 800 }}>The online presence of Emelia Smith</h2>
+    </header>
     <section style={{ color: '#666' }}>
       <p>Hi, I'm Emelia, a highly experienced software engineer and founder based in Berlin, Germany</p>
       <p>I'm perhaps most known for my voice on <a href="https://twitter.com/thisismissem" title="Follow Emelia on Twitter">Twitter</a>, where I talk about Tech, Politics, Distributed Web, rights for sex workers and equality. You can find my writing on <a href="https://medium.com/@thisismissem" title="Read articles by Emelia on Medium">Medium</a>, when I publish it.</p>

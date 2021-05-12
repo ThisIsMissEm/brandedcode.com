@@ -1,17 +1,16 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import Head from 'next/head'
 
-import './index.css'
+import '../style.css'
 
-const TemplateWrapper = ({ children }) => (
+const App = ({ Component, pageProps }) => (
   <div>
-    <Helmet>
+    <Head>
       <title>BrandedCode – Emelia Smith</title>
       <meta name='description' content='BrandedCode, the former freelance identity of Emelia Smith' />
       <meta name='keywords' content='emelia, smith, emelia smith, freelance, brandedcode, thisismissem, miksago, github, tech, startups, react, graphql, unobvious technology'/>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" />
-    </Helmet>
+    </Head>
     <div
       style={{
         margin: '0 auto',
@@ -20,13 +19,8 @@ const TemplateWrapper = ({ children }) => (
         fontFamily: '"Open Sans", sans-serif'
       }}
     >
-      {children()}
+      <Component {...pageProps} />
     </div>
   </div>
-)
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
-
-export default TemplateWrapper
+);
+export default App;

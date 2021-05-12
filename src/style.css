@@ -624,3 +624,13 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+#header {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    font-size: 18px;
+  }
+}
