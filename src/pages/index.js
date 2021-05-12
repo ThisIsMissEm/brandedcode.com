@@ -38,7 +38,7 @@ const IndexPage = () => (
       <p>For the past three years, I have been bootstrapping a company called <a href="https://unobvious.technology" title="Learn more about Unobvious Technology">Unobvious Technology</a>, dedicated to bringing <span title="(like those I've built in the tech industry)">modern, safe, and secure services</span> to sex workers and the adult industry</p>
 
       <Button href="https://unobvious.technology" isPrimary title="Learn more about Unobvious Technology">Unobvious Technology</Button>
-      <Button href="mailto:emelia@brandedcode.com?subject=Hi!">Contact Emelia</Button>
+      <Button href="https://www.linkedin.com/in/thisismissem/">Hire Emelia</Button>
     </section>
     <footer style={{ marginTop: '60px', borderTop: '1px solid #ccc', padding: '6px 0 0', color: '#666', fontSize: 'smaller'}}>
       <p>
