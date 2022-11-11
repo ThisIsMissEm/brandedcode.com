@@ -25,7 +25,7 @@ const IndexPage = () => (
   <div style={{color: '#222' }} id="me" typeof="foaf:Person">
     <header id="header">
       <h1 style={{ fontSize: '3em', fontWeight: 800, color: '#6833DD' }}>BrandedCode</h1>
-      <h2 style={{ fontSize: '1em', fontWeight: 800 }}>The online presence of <span property="foaf:name"><span property="foaf:givenName">Emelia</span> <span property="foaf:familyName">Smith</span></h2>
+      <h2 style={{ fontSize: '1em', fontWeight: 800 }}>The online presence of <span property="foaf:name"><span property="foaf:givenName">Emelia</span> <span property="foaf:familyName">Smith</span></span></h2>
     </header>
     <section style={{ color: '#666' }}>
       <p>Hi, I'm Emelia, a highly experienced software engineer and founder based in <span property="schema:homeLocation">Berlin, Germany</span></p>
