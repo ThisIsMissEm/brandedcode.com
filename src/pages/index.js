@@ -34,7 +34,7 @@ const IndexPage = () => (
             window.location.href = 'mailto:emelia@brandedcode.com?subject=Hi'
           }
         }}>Email</a>
-        <span id="updatedAt">Last Updated 11th November 2022</span>
+        <span id="updatedAt">Last Updated 18th July 2023</span>
       </p>
     </footer>
   </div>
