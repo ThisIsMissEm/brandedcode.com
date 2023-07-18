@@ -9,7 +9,7 @@ const App = ({ Component, pageProps }) => (
       <title>BrandedCode – Emelia Smith</title>
       <meta name='description' content='BrandedCode, the former freelance identity of Emelia Smith' />
       <meta name='keywords' content='emelia, smith, emelia smith, freelance, brandedcode, thisismissem, miksago, github, tech, startups, react, graphql, unobvious technology'/>
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" />
+      <link href="https://fonts.bunny.net/css?family=Open+Sans:400,800" rel="stylesheet" />
     </Head>
     <div
       style={{

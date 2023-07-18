@@ -39,7 +39,7 @@ template {
 }
 
 a {
-  color: #552E99;
+  color: #E91E63;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -629,8 +629,43 @@ pre tt:after {
   font-size: 24px;
 }
 
+#footer {
+  margin-top: 60px;
+  border-top: 1px solid #ccc;
+  padding: 6px 0 0;
+  color: #666;
+  font-size: smaller;
+}
+
+#footer a {
+  color: #aaa;
+}
+
+#footer #updatedAt {
+  float: right;
+}
+
 @media screen and (max-width: 600px) {
   #header {
     font-size: 18px;
   }
+}
+
+.button {
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  padding: 10px 26px 12px;
+  background: #888;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.1875rem;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.button.button-primary {
+  background: #E91E63;
 }

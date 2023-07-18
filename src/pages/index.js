@@ -2,21 +2,7 @@ import React from 'react'
 import Responsive from 'react-responsive'
 
 const Button = ({ isPrimary, ...props}) => (
-  <a style={{
-    display: "inline-block",
-    marginRight: "20px",
-    marginBottom: "20px",
-    padding: "10px 26px",
-    background: isPrimary ? '#6833DD' : '#aaa',
-    color: 'white',
-    borderRadius: '5px',
-    fontSize: '1.1875rem',
-    lineHeight: '24px',
-    cursor: 'pointer',
-    textAlign: 'center',
-    outline: 'none',
-    textDecoration: 'none'
-  }} {...props} />
+  <a className={isPrimary ? "button" : "button button-primary"} {...props} />
 )
 
 const Today = new Date()
@@ -24,7 +10,7 @@ const Today = new Date()
 const IndexPage = () => (
   <div style={{color: '#222' }} id="me" typeof="foaf:Person">
     <header id="header">
-      <h1 style={{ fontSize: '3em', fontWeight: 800, color: '#6833DD' }}>BrandedCode</h1>
+      <h1 style={{ fontSize: '3em', fontWeight: 800, color: '#E91E63' }}>BrandedCode</h1>
       <h2 style={{ fontSize: '1em', fontWeight: 800 }}>The online presence of <span property="foaf:name"><span property="foaf:givenName">Emelia</span> <span property="foaf:familyName">Smith</span></span></h2>
     </header>
     <section style={{ color: '#666' }}>
@@ -38,9 +24,9 @@ const IndexPage = () => (
 
       <p><small>* If she is available</small></p>
     </section>
-    <footer style={{ marginTop: '60px', borderTop: '1px solid #ccc', padding: '6px 0 0', color: '#666', fontSize: 'smaller'}}>
+    <footer id="footer">
       <p>
-        <a href="https://github.com/thisismissem" rel="me" title="Emelia on Github" style={{color: '#aaa'}}>Github</a> / <a href="https://hachyderm.io/@thisismissem" rel="me" title="Follow on Mastodon" style={{color: '#aaa'}}>Mastodon</a> / <a href="https://www.linkedin.com/in/thisismissem" rel="me" title="See my previous work on LinkedIn" style={{color: '#aaa'}}>LinkedIn</a> / <a href="#" title="Contact Emelia for non-recruitment matters" style={{color: '#aaa'}} onClick={(e) => {
+        <a href="https://github.com/thisismissem" rel="me" title="Emelia on Github">Github</a> / <a href="https://hachyderm.io/@thisismissem" rel="me" title="Follow on Mastodon" style={{color: '#aaa'}}>Mastodon</a> / <a href="https://www.linkedin.com/in/thisismissem" rel="me" title="See my previous work on LinkedIn" style={{color: '#aaa'}}>LinkedIn</a> / <a href="#" title="Contact Emelia for non-recruitment matters" style={{color: '#aaa'}} onClick={(e) => {
           e.preventDefault();
           if(window.confirm('Is this about recruitment or hiring? (press ok)')) {
             window.alert("Please use the 'Hire Emelia' button instead");
@@ -48,7 +34,7 @@ const IndexPage = () => (
             window.location.href = 'mailto:emelia@brandedcode.com?subject=Hi'
           }
         }}>Email</a>
-        <span style={{ float: 'right' }}>Last Updated 11th November 2022</span>
+        <span id="updatedAt">Last Updated 11th November 2022</span>
       </p>
     </footer>
   </div>
