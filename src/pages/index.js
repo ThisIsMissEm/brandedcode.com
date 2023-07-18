@@ -2,7 +2,7 @@ import React from 'react'
 import Responsive from 'react-responsive'
 
 const Button = ({ isPrimary, ...props}) => (
-  <a className={isPrimary ? "button" : "button button-primary"} {...props} />
+  <a className={isPrimary ? "button button-primary" : "button"} {...props} />
 )
 
 const Today = new Date()
