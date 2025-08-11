@@ -7,3 +7,49 @@
     <span id="updatedAt">Last Updated {{ 'now' | date: "%e %B %Y" }}</span>
   </p>
 </footer>
+
+<dialog id="email-confirm" class="center" closedby="any">
+  <h2>Is this about recruitment or hiring?</h2>
+  <button type="button" id="email-confirm-yes" class="button button-primary">Yes</button>
+  <button type="button" id="email-confirm-no" class="button">No</button>
+</dialog>
+
+<dialog id="email-confirmed-yes" class="center" closedby="any">
+  <h2>Please use the 'Hire Emelia' button instead</h2>
+  <button type="button" id="email-confirm-yes-close" class="button button-primary">Close</button>
+</dialog>
+
+<script type="text/javascript">
+  /**
+   * @type {HTMLDialogElement}
+   */
+  const emailConfirm = document.getElementById("email-confirm")
+  /**
+   * @type {HTMLDialogElement}
+   */
+  const emailConfirmedYes = document.getElementById("email-confirmed-yes")
+
+  document.getElementById("years").innerText = `For the past ${(new Date()).getFullYear() - 2017} years`
+
+  document.getElementById("email").addEventListener("click", (e) => {
+    e.preventDefault();
+    emailConfirm.showModal()
+  });
+
+  document.getElementById("email-confirm-yes").addEventListener("click", (e) => {
+    e.preventDefault();
+    emailConfirm.close()
+    emailConfirmedYes.showModal()
+  })
+
+  document.getElementById("email-confirm-no").addEventListener("click", (e) => {
+    e.preventDefault();
+    emailConfirm.close();
+    window.location.href = 'mailto:emelia@brandedcode.com?subject=Hi'
+  })
+
+  document.getElementById("email-confirm-yes-close").addEventListener("click", (e) => {
+    e.preventDefault();
+    emailConfirmedYes.close();
+  })
+</script>
