@@ -1,3 +1,56 @@
+.root {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 4rem 1.0875rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+#header {
+  h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: #E91E63;
+  }
+
+  h2 {
+    font-size: 1em;
+    font-weight: 800;
+  }
+}
+
+section#homepage {
+  color: #666;
+}
+
+footer {
+  a {
+    color: #aaa;
+
+    &:hover,
+    &:focus {
+      color: #888;
+    }
+  }
+}
+
+dialog {
+  border: 1px solid #888;
+  background: white;
+  border-radius: 6px;
+  padding: 20px;
+  top: -20%;
+
+  &::backdrop {
+    background: rgba(0,0,0,0.5);
+  }
+
+  &.center {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+// Old CSS
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -42,6 +95,11 @@ a {
   color: #E91E63;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+
+  &:hover {
+    color: #bd154d;
+    text-decoration: none;
+  }
 }
 a:active,
 a:hover {
@@ -625,6 +683,16 @@ pre tt:after {
   }
 }
 
+html {
+  font: 112.5%/1.45em georgia,serif;
+  font-weight: normal;
+  font-size: 112.5%;
+  line-height: 1.45em;
+  font-family: georgia, serif;
+  font-kerning: auto;
+  font-feature-settings: normal;
+}
+
 #header {
   font-size: 24px;
 }
@@ -654,7 +722,7 @@ pre tt:after {
 .button {
   display: inline-block;
   margin: 0 20px 20px 0;
-  padding: 10px 26px 12px;
+  padding: 13px 26px 9px;
   background: #888;
   color: white;
   border-radius: 5px;
@@ -664,8 +732,20 @@ pre tt:after {
   text-align: center;
   outline: none;
   text-decoration: none;
+  border: none;
+
+  &:hover {
+    background-color: #666;
+    color: white;
+  }
 }
 
 .button.button-primary {
   background: #E91E63;
+  color: #fff;
+
+  &:hover {
+    background: #bd154d;
+    color: #fff;
+  }
 }

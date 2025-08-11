@@ -1,0 +1,73 @@
+---
+layout: homepage
+---
+
+<section id="homepage">
+  <p>Hi, I'm Emelia, a highly experienced software engineer and founder based in <span
+      property="schema:homeLocation">Berlin, Germany</span></p>
+  <p>I'm perhaps most known for my voice on <a href="https://hachyderm.io/@thisismissem" rel="me"
+      title="Follow Emelia on Mastodon">Mastodon</a>, where I talk about Tech, Politics, Distributed Web, Social Media
+    Moderation, rights for sex workers and equality. You can find my writing on <a
+      href="https://medium.com/@thisismissem" rel="me" title="Read articles by Emelia on Medium">Medium</a>, when I
+    publish it.</p>
+  <p>You may also know me as the <a href="https://www.instagram.com/p/B6B4vVRIA22/"
+      title="Photo of Emelia dressed as a princess at React Day Berlin 2020">tech princess</a>, or the <a
+      href="https://medium.com/@thisismissem/tech-this-is-good-bye-19b88b2a760f"
+      title="Read the article about Emelia leaving tech">trans woman who left tech</a> (I'm back).</p>
+  <p><span id="years">Since 2017</span>, I have been bootstrapping my own company called <a
+      href="https://unobvious.technology" title="Learn more about Unobvious Technology">Unobvious Technology UG</a>,
+    dedicated to bringing <span title="(like those I've built in the tech industry)">modern, safe, and secure
+      services</span> to sex workers and the adult industry.</p>
+
+  <a class="button button-primary" href="https://unobvious.technology"
+    title="Learn more about Unobvious Technology">Unobvious Technology</a>
+  <a class="button" href="https://www.linkedin.com/in/thisismissem/" rel="me">Hire Emelia*</a>
+
+  <p><small>* If she is available</small></p>
+</section>
+
+<dialog id="email-confirm" class="center" closedby="any">
+  <h2>Is this about recruitment or hiring?</h2>
+  <button type="button" id="email-confirm-yes" class="button button-primary">Yes</button>
+  <button type="button" id="email-confirm-no" class="button">No</button>
+</dialog>
+
+<dialog id="email-confirmed-yes" class="center" closedby="any">
+  <h2>Please use the 'Hire Emelia' button instead</h2>
+  <button type="button" id="email-confirm-yes-close" class="button button-primary">Close</button>
+</dialog>
+
+<script type="text/javascript">
+  /**
+   * @type {HTMLDialogElement}
+   */
+  const emailConfirm = document.getElementById("email-confirm")
+  /**
+   * @type {HTMLDialogElement}
+   */
+  const emailConfirmedYes = document.getElementById("email-confirmed-yes")
+
+  document.getElementById("years").innerText = `For the past ${(new Date()).getFullYear() - 2017} years`
+
+  document.getElementById("email").addEventListener("click", (e) => {
+    e.preventDefault();
+    emailConfirm.showModal()
+  });
+
+  document.getElementById("email-confirm-yes").addEventListener("click", (e) => {
+    e.preventDefault();
+    emailConfirm.close()
+    emailConfirmedYes.showModal()
+  })
+
+  document.getElementById("email-confirm-no").addEventListener("click", (e) => {
+    e.preventDefault();
+    emailConfirm.close();
+    window.location.href = 'mailto:emelia@brandedcode.com?subject=Hi'
+  })
+
+  document.getElementById("email-confirm-yes-close").addEventListener("click", (e) => {
+    e.preventDefault();
+    emailConfirmedYes.close();
+  })
+</script>

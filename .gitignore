@@ -1,8 +1,5 @@
-# Project dependencies
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
-.next
-out
-.DS_Store
-yarn-error.log
-package-lock.json
+# Cache
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache
